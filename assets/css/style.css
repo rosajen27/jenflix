@@ -15,7 +15,7 @@ body {
   font-weight: 400;
 }
 
-/* Grid Layout */
+/* GRID LAYOUT */
 .container {
   padding: 0 3.2rem;
   max-width: 120rem;
@@ -73,6 +73,43 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #e6e6e6;
+}
+
+/* SECTION: HERO */
+.section-hero {
+    padding: 4.8rem 0 9.6rem 0;
+    background-image: url(https://imdb-api.com/Posters/w1280/n9dwu1p5G4qJ4DI5eHJMUbAdOfA.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    gap: 9.6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.heading-primary {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
 }
 
 /* FOOTER */
